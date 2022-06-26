@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        height: 100vh;
+    }
+    .box{
+        width: 295px;
+        height: 148px;
+    }
+    .pallet{
+        width: 295px;
+        height: 250px;
+    }
+    .active{
+        outline: 1px solid black;
+    }
+    .colorBox{
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin: 1px 1px 0px 0px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    
+    .content-box{
+        display: flex;
+        width: 100vw;
+        height:100vh;
+    }
+    
+    .space-left {
+        flex-basis: 40%;
+        width: 50%;
+        height : 100vh;
+    }
+    
+    .space-right {
+        flex-basis : 60%;
+        width : 50%;
+        background-color: white;
+        height : 100vh;
+    }
+    
