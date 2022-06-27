@@ -1,0 +1,74 @@
+@font-face{
+    font-family : 'Poppins-Black';
+    src: url('./font/Poppins-Black.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'SCDream8';
+    src: url('./font/SCDream8.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'SCDream4';
+    src: url('./font/SCDream4.woff') format('woff');
+}
+
+html{
+    font-size: 62.5%;
+    /* 16px=1.6rem; */
+}
+
+body{
+    background-color: #000000;
+}
+
+
+/* 상단 로고 및 임시 등록, 등록 버튼 부분  */
+#savingButton{
+    border-radius: 3.35rem;
+    border: solid 0.2rem #ffffff;
+    font-family: 'SCDream8';
+    font-size: 2rem;
+    color: #ffffff;
+
+}
+
+
+.head-s-c{
+    display: flex;
+}
+
+.logo{
+    font-family: 'Poppins-Black';
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+/*'오늘의 색', '스티커', '이미지 첨부' 메뉴 부분*/
+.colorBox{
+    display: flex;
+}
+
+.stickerBox{
+    display: flex;
+}
+
+.imageBox{
+    display: flex;
+}
+
+#BoxText{
+    color: #fff;
+    font-family: 'SCDream4';
+}
+
+/* 글쓰기 부분 */
+.textbox{
+    background-color: #ffffff;
+    border: solid 0.2rem #000;
+
+    width: 1180px;
+    height: 866px;
+    margin: 112px 0 0;
+    padding: 0 140px 564px 79px;
+}
