@@ -1,4 +1,4 @@
-]var beforeColor; //이전에 선택된 컬러 저장 할 변수
+var beforeColor; //이전에 선택된 컬러 저장 할 변수
 
 //HTML 로딩이 끝난 후
 window.onload = function () {
