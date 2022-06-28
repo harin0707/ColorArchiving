@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/w-tab.css">
 
     <script src="js/color-tab.js"></script>
+    <script src="js/open-close-tab.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
 <body>
@@ -25,12 +28,11 @@
             </div>  
         </div>
     </div>
-
     <div class="main-section">
         <div class="writing-section">
             <div class="writing-s-c">
                 <div class="decoBox">
-                    <div id="Box" class="colorBox">
+                    <div id="Box" class="colorBox" onclick="openTab()">
                         <div id="BoxText" class="colorBox-text">main color</div>
                         <div class="colorBox-color"></div>
                     </div>
@@ -42,22 +44,42 @@
                         <div id="BoxText" class="imageBox-text">image</div>
                         <img class="imageBox-image" src="./image/imageBox.png">
                     </div>
-                </div>
-                <div class="textBox"></div>
-            </div>
-        </div>
-        <div class="tab-bar">
-            <div id="TabBar" class="color-bar">
-                <div class="color-bar-text"> 오늘의 색 </div>
-                <div class="color-bar-palette"> </div>
-            </div>
+                    <!-- 색&스티커&이미지 탭 (모달) -->
+                    <div class="tab-bar">
+                        <div class="TabBar" id="color-bar">
+                            <div id="tab-bar-header" class="color-bar-header">
+                                <div id="tab-bar-text" class="color-bar-text"> 오늘의 색 </div>
+                                <span id="closeButton" class="material-symbols-outlined" onclick="closeTab()">close</span>
+                            </div>
+                            <div id="color-bar-palette" class="color-bar-palette"> </div>
+                        </div>
 
-            <!-- invisible하게 -->
-            <div id="TabBar" class="sticker-bar"></div>
-            <div id="TabBar" class="image-bar"></div>
-        </div> 
+                        <!-- <div class="TabBar" id="sticker-bar"></div>
+                        <div class="TabBar" id="image-bar"></div> -->
+            
+                        <!-- invisible하게 -->
+                        <div class="TabBar" id="sticker-bar">
+                            <div id="tab-bar-header" class="sticker-bar-header">
+                                <div id="tab-bar-text" class="sticker-bar-text"> 스티커 </div>
+                                <span id="closeButton" class="material-symbols-outlined" onclick="closeTab()">close</span>
+                            </div>
+                            <div id="sticker-bar-palatte" class="sticker-bar-palette"> </div>
+                        
+                        
+                        <div class="TabBar" id="image-bar">
+                            <div id="tab-bar-header" class="image-bar-header">
+                                <div id="tab-bar-text" class="image-bar-text"> 사진 </div>
+                                <span id="closeButton" class="material-symbols-outlined" onclick="closeTab()">close</span>
+                            </div>
+                            <div id="image-bar-palatte" class="image-bar-palette"> </div>
+                        </div> 
+                    </div>
+                    </div>
+                    </div>
+                    
+                <div class="textBox"></div>
+        </div>
     </div>
-    
-    
-</body>
+
+    </body>
 </html>
