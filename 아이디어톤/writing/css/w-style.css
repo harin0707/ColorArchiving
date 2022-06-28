@@ -14,8 +14,6 @@ body{
 
 }
 
-
-
 /*'오늘의 색', '스티커', '이미지 첨부' 메뉴 부분*/
 .decoBox{
     display: flex;
