@@ -1,0 +1,74 @@
+/* ? width랑 height 중복해서 설정? */
+
+
+/* 상단 로고 및 임시 등록, 등록 버튼 부분  */
+.head-s-c{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: 'Poppins-Black';
+    color: #ffffff;
+    
+    /* width: 4.7222vw; */
+    width: 10vw;
+    height: 1.8750vw;
+    margin: 0.2778vw 6.1806vw 8.2639vw 0;
+    font-size: 1.25vw;
+    font-weight: bold;
+    text-align: left;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.Save{
+    width: 3vw;
+    height: 1.8750vw;
+    font-size: 1.25vw;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.Upload{
+    width: 4.5vw;
+    height: 1.8750vw;
+    font-size: 1.25vw;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+/* 버튼 테두리 */
+.savingButton{
+    font-family: 'Poppins-Regular';
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 2.3264vw;
+    border: solid 0.1vw #ffffff;
+
+    width: 5.625vw;
+    height: 2.5vw;
+    margin: 0 0 7.9167vw 22vw;
+}
+
+.uploadingButton{
+    font-family: 'Poppins-Regular';
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.3264vw;
+    border: solid 0.1vw #ffffff;  
+
+    width: 7.0833vw;
+    height: 2.5vw;
+    margin: 0 0 7.9167vw 0;
+}

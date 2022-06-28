@@ -1,0 +1,15 @@
+.tab-bar{
+    display: flex;
+    position: relative;
+}
+
+#TabBar{
+    position: absolute;
+
+    width: 31.2500vw;
+    height: 91.5531vh;
+
+
+    background-color: #ffffff;
+}
+

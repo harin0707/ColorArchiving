@@ -1,0 +1,42 @@
+/* 영어 */
+@font-face{
+    font-family : 'Poppins-Black';
+    src: url('./font/Poppins-Black.woff') format('woff');
+}
+
+@font-face{
+    font-family : 'Poppins-Regular';
+    src: url('./font/Poppins-Regular.woff') format('woff');
+}
+
+@font-face{
+    font-family : 'Poppins-Medium';
+    src: url('./font/Poppins-Medium.woff') format('woff');
+}
+
+@font-face{
+    font-family : 'Poppins-MediumItalic';
+    src: url('./font/Poppins-MediumItalic.woff') format('woff');
+}
+
+@font-face{
+    font-family : 'Poppins-Bold';
+    src: url('./font/Poppins-Bold.woff') format('woff');
+}
+
+@font-face{
+    font-family : 'Poppins-BoldItalic';
+    src: url('./font/Poppins-BoldItalic.woff') format('woff');
+}
+
+/* 한글 */
+@font-face{
+    font-family: 'SCDream8';
+    src: url('./font/SCDream8.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'SCDream4';
+    src: url('./font/SCDream4.woff') format('woff');
+}
+
