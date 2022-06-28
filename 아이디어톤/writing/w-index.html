@@ -5,15 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>기록페이지</title>
-    <link rel="stylesheet" href="w-style.css">
+    <link rel="stylesheet" href="css/w-style.css">
+    <link rel="stylesheet" href="css/w-font.css">
+    <link rel="stylesheet" href="css/w-header.css">
+    <link rel="stylesheet" href="css/w-tab.css">
+
+    <script src="js/color-tab.js"></script>
 
 </head>
 <body>
     <div class="head-section">
         <div class="head-s-c">
             <div class="logo">like lion</div>
-            <div id="savingButton" class="saveTem">임시등록</div>  
-            <div id="savingButton" class="saveCom">등록</div> 
+            <div class="savingButton">
+                <div id="Button" class="Save">save</div>
+            </div>
+            <div class="uploadingButton">
+                <div id="Button" class="Upload">upload</div> 
+            </div>  
         </div>
     </div>
 
@@ -21,16 +30,16 @@
         <div class="writing-section">
             <div class="writing-s-c">
                 <div class="decoBox">
-                    <div class="colorBox">
-                        <div id="BoxText" class="colorBox-text">오늘의 색</div>
+                    <div id="Box" class="colorBox">
+                        <div id="BoxText" class="colorBox-text">main color</div>
                         <div class="colorBox-color"></div>
                     </div>
-                    <div class="stickerBox">
-                        <div id="BoxText" class="stickerBox-text">스티커</div>
+                    <div id="Box" class="stickerBox">
+                        <div id="BoxText" class="stickerBox-text">sticker</div>
                         <img class="stickerBox-sticker" src="./image/starStickerBox.png">
                     </div>
-                    <div class="imageBox">
-                        <div id="BoxText" class="imageBox-text">이미지</div>
+                    <div id="Box" class="imageBox">
+                        <div id="BoxText" class="imageBox-text">image</div>
                         <img class="imageBox-image" src="./image/imageBox.png">
                     </div>
                 </div>
@@ -38,11 +47,14 @@
             </div>
         </div>
         <div class="tab-bar">
-            <div class="color-bar"></div>
+            <div id="TabBar" class="color-bar">
+                <div class="color-bar-text"> 오늘의 색 </div>
+                <div class="color-bar-palette"> </div>
+            </div>
 
             <!-- invisible하게 -->
-            <div class="sticker-bar"></div>
-            <div class="image-bar"></div>
+            <div id="TabBar" class="sticker-bar"></div>
+            <div id="TabBar" class="image-bar"></div>
         </div> 
     </div>
     
