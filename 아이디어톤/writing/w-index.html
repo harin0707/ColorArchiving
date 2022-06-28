@@ -32,16 +32,16 @@
         <div class="writing-section">
             <div class="writing-s-c">
                 <div class="decoBox">
-                    <div id="Box" class="colorBox" onclick="openTab()">
+                    <div id="Box" class="colorBox" onclick="openTabColor()">
                         <div id="BoxText" class="colorBox-text">main color</div>
                         <div class="colorBox-color"></div>
                     </div>
                     <div id="Box" class="stickerBox">
-                        <div id="BoxText" class="stickerBox-text">sticker</div>
+                        <div id="BoxText" class="stickerBox-text" onclick="openTabSticker()">sticker</div>
                         <img class="stickerBox-sticker" src="./image/starStickerBox.png">
                     </div>
                     <div id="Box" class="imageBox">
-                        <div id="BoxText" class="imageBox-text">image</div>
+                        <div id="BoxText" class="imageBox-text" onclick="openTabImage()">image</div>
                         <img class="imageBox-image" src="./image/imageBox.png">
                     </div>
                     <!-- 색&스티커&이미지 탭 (모달) -->
@@ -49,7 +49,7 @@
                         <div class="TabBar" id="color-bar">
                             <div id="tab-bar-header" class="color-bar-header">
                                 <div id="tab-bar-text" class="color-bar-text"> 오늘의 색 </div>
-                                <span id="closeButton" class="material-symbols-outlined" onclick="closeTab()">close</span>
+                                <span id="closeButton" class="material-symbols-outlined" onclick="closeTabC()">close</span>
                             </div>
                             <div id="color-bar-palette" class="color-bar-palette"> </div>
                         </div>
@@ -61,20 +61,21 @@
                         <div class="TabBar" id="sticker-bar">
                             <div id="tab-bar-header" class="sticker-bar-header">
                                 <div id="tab-bar-text" class="sticker-bar-text"> 스티커 </div>
-                                <span id="closeButton" class="material-symbols-outlined" onclick="closeTab()">close</span>
+                                <span id="closeButton" class="material-symbols-outlined" onclick="closeTabS()">close</span>
                             </div>
-                            <div id="sticker-bar-palatte" class="sticker-bar-palette"> </div>
+                            <div id="sticker-bar-palatte" class="color-bar-palette"> </div>
+                        </div>
                         
                         
                         <div class="TabBar" id="image-bar">
                             <div id="tab-bar-header" class="image-bar-header">
                                 <div id="tab-bar-text" class="image-bar-text"> 사진 </div>
-                                <span id="closeButton" class="material-symbols-outlined" onclick="closeTab()">close</span>
+                                <span id="closeButton" class="material-symbols-outlined" onclick="closeTabI()">close</span>
                             </div>
-                            <div id="image-bar-palatte" class="image-bar-palette"> </div>
+                            <div id="image-bar-palatte" class="color-bar-palette"> </div>
                         </div> 
                     </div>
-                    </div>
+                    
                     </div>
                     
                 <div class="textBox"></div>
